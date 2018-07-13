@@ -1,1 +1,6 @@
-In
+Introduction:
+-Formulation:
+	+ Given a set of categories, a small subset has mask annotations, the other categories has bounding box annotations.
+	+ The instance segmentation algorithm use this data to fit a model that can segment instance of all object categories in the set.
+	+ Because the training data is a mixture of strongly annotated examples and weakly annotated examples, refering to partially supervised learning.
+-Benefit: Allowing us to build a large-scale instance segmentation model by using both types of existing datataset. This enables us to scale state-of-the-art instance segmentation methods to thoudsands of caterories.
