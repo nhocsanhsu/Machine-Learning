@@ -1,0 +1,5 @@
+$ git init
+$ git add file.txt
+$ git commit -m "First commit"
+$ git remote add origin <link>
+$ git push origin master
